@@ -19,7 +19,6 @@ import java.util.Optional;
 public class EventController {
 
 
-
     private List<Event> events = new ArrayList<>();
 
     @GetMapping(value="/event/today", produces=MediaType.APPLICATION_JSON_VALUE)
